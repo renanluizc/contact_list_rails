@@ -1,0 +1,19 @@
+pt-BR:
+  hello: 'Ola mundo!'
+
+  activerecord:
+    attributes:
+      user:
+        name: 'Nome'
+        email: 'Email'
+        password: 'Senha'
+        password_confirmation: 'Confirmacao de Senha'
+
+    errors:
+      messages:
+        blank: 'nao pode ser em branco'
+        invalid: 'invalido'
+        taken: 'ja cadastrado'
+        confirmation: 'nao e igual, insira a mesma senha'
+        too_long: 'muito grande, maximo de %{count} caracteres'
+        too_short: 'muito curta, minimo de %{count} caracteres'
